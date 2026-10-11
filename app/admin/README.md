@@ -1,0 +1,1 @@
+Admin setup: create a Supabase Auth user with email `khalidmutasimsaad@gmail.com` and a strong password. Set `ADMIN_EMAIL` to the same address in all deployment environments. Disable public signups. The dashboard client checks the allowlisted email, and every admin API route independently validates the bearer token with Supabase Auth.
